@@ -7,9 +7,17 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ["var(--font-geist-sans)"],
+        mono: ["var(--font-geist-mono)"],
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        primary: {
+          100: "rgb(var(--val-clr-primary-100))",
+          200: "rgb(var(--val-clr-primary-200))",
+        },
       },
     },
   },
